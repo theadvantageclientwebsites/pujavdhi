@@ -20,7 +20,7 @@ export default function AboutMissionSection() {
   return (
     <>
       {/* ── Mission section ── */}
-      <section className="w-full bg-white py-16 lg:py-24" aria-label="Our Mission">
+      <section className="w-full bg-white py-8 lg:pt-18 lg:pb-12" aria-label="Our Mission">
         <div className="mx-auto max-w-7xl px-6 lg:px-16">
           <div className="flex flex-col items-center gap-12 lg:flex-row lg:items-center lg:gap-20">
 
@@ -55,7 +55,7 @@ export default function AboutMissionSection() {
                 <p className="mb-2 text-[14px] font-bold uppercase tracking-[0.1em] text-[#FF6A00]">
                   Our Mission
                 </p>
-                <h2 className="text-[26px] sm:text-[28px] lg:text-[32px] font-bold leading-tight text-[#1a1a1a]">
+                <h2 className="text-[26px] sm:text-[28px] lg:text-[32px] font- leading-tight text-[#1a1a1a]">
                   Your Faith,{" "}
                   <span className="text-[#FF6A00]">Our Responsibility</span>
                 </h2>

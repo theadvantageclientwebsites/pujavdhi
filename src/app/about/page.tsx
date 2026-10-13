@@ -1,14 +1,16 @@
 import PageHero from "@/components/sections/PageHero";
 import AboutMissionSection from "@/components/sections/AboutMissionSection";
+import AboutStorySection from "@/components/sections/AboutStorySection";
+import WhyChooseSection from "@/components/sections/WhyChooseSection";
+import RefundPolicySection from "@/components/sections/RefundPolicySection";
+import RefundDetailsSection from "@/components/sections/RefundDetailsSection";
+import AboutBanner from "@/components/sections/AboutBanner";
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
-        breadcrumbs={[
-          { label: "Home", href: "/" },
-          { label: "About Us" },
-        ]}
+        breadcrumbs={[{ label: "Home", href: "/" }, { label: "About Us" }]}
         headingBlack="About "
         headingOrange="Us"
         subtitle="Connecting Devotees with Divine Traditions"
@@ -17,6 +19,11 @@ export default function AboutPage() {
         imageAlt="Pandit performing Vedic puja"
       />
       <AboutMissionSection />
+      <AboutStorySection />
+      <WhyChooseSection />
+      <RefundPolicySection />
+      <RefundDetailsSection />
+      <AboutBanner />
     </>
   );
 }
