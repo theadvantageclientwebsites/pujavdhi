@@ -98,7 +98,7 @@ export default function PageHero({
           </p>
 
           {/* Description */}
-          <p className="text-[14px] font-medium text-[#4b5563] leading-relaxed max-w-[560px]">
+          <p className="text-[14px] font-medium text-[#4b5563] leading-relaxed max-w-[560px] whitespace-pre-line">
             {description}
           </p>
 
